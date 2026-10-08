@@ -27,6 +27,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  background-color: #1b1b1b;
 }
 
 .classi{ 
@@ -34,6 +35,9 @@
   flex-direction: column;
   align-items: center;
   padding: 1rem;
+  background-color: white;
+  margin: 1rem;
+  border-radius: 4rem;
 
 }
 
@@ -42,4 +46,16 @@
   flex-direction: column;
   align-items: center;
   padding: 1rem;
+  background-color: white;
+  margin: 1rem;
+  border-radius: 4rem;
+
+.aside1{
+  width: 12rem;
+  background-color: #1b1b1b;
+}
+
+.aside2{
+  width: 12rem;
+  background-color: #1b1b1b;
 }
