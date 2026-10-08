@@ -1,5 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Luminari', fantasy;
+}
+
 .header-content {
-    display: flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
@@ -7,14 +13,33 @@
 }
 
 .h1 {
-    color: goldenrod;
+  color: goldenrod;
   margin: auto;
 }
 
-.container {
-    display: grid;
-  grid-template-columns: 1fr;
+.h2 {
+  color: goldenrod;
+  margin: auto;
+  padding: 1rem;
+}
+
+.aside-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.classi{ 
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 2rem;
+  padding: 1rem;
+
+}
+
+.razze{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
 }
